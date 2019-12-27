@@ -6,9 +6,10 @@ def primary():
 	f.close()
 
 	last = 13
-	rnd = random.randint(0, last)
+	for x in range(0, 2):
+		rnd = random.randint(0, last)
+		print(quotes[rnd])
 
-	print(quotes[rnd])
 
 if __name__== "__main__":
 	primary()
